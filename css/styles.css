@@ -20,6 +20,7 @@ address {
 button {
   cursor: pointer;
 }
+
 /* --------------------HEADER--------------------- */
 
 .logo {
@@ -58,11 +59,13 @@ button {
 .header-contacts-link:focus {
   color: #404bbf;
 }
+
 /* --------------------HERO--------------------- */
 
 .hero {
   background: #2e2f42;
 }
+
 .hero-text {
   font-weight: 700;
   font-size: 56px;
@@ -83,6 +86,7 @@ button {
 }
 
 /* --------------------FEATURES--------------------- */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
