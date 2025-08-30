@@ -85,6 +85,10 @@ button {
   color: #fff;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;}
+
 /* --------------------FEATURES--------------------- */
 
 .visually-hidden {
@@ -116,13 +120,13 @@ button {
   color: #434455;
 }
 
-/* --------------------PORTFOLIO--------------------- */
+/* --------------------TEAM--------------------- */
 
-.portfolio {
+.team {
   background-color: #f4f4fd;
 }
 
-.portfolio-title {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -132,17 +136,17 @@ button {
   color: #2e2f42;
 }
 
-.portfolio-list {
+.team-list {
   background-color: #FFFFFF
 }
 
-.portfolio-item {
+.team-item {
 }
 
-.portfolio-image {
+.team-image {
 }
 
-.portfolio-subtitle {
+.team-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -151,12 +155,46 @@ button {
   color: #2e2f42;
 }
 
-.portfolio-description {
+.team-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+/* --------------------PORTFOLIO--------------------- */
+
+.portfolio {}
+
+.portfolio-title {
+  font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-image {}
+
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;}
+
+.portfolio-description {
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /* --------------------FOOTER--------------------- */
